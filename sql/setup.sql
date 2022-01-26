@@ -7,3 +7,6 @@ CREATE TABLE profiles (
   name TEXT NOT NULL,
   quote TEXT NOT NULL
 );
+
+INSERT INTO profiles (name, quote)
+VALUES ('bob', 'i am bob'), ('bob2', 'i am bob2')
